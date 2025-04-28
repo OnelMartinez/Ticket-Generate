@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url(/images/background-desktop.png);
+    background-image: url(./images/background-desktop.png);
     background-size: cover;
 }
 

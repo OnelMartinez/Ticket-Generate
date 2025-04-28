@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conference Ticket Generator</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <!-- <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+        </style> -->
+    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+</head>
+<body>
+    <header id="header">
+        <div class="container"> 
+            <img width="150px" src="./images/logo-full.svg" alt="" srcset="">
+            <h1 style="margin: 20px 0 0 0 ;">Your Journey to Coding Conf 2025 Starts Here!</h1>
+            <h3 style="font-size: 14px; margin: 20px 0;">Secure your spot at next year's biggest coding conference</h3>
+            <form method="get" class="form">
+                <div class="form-information">
+                    <h4 class="no">Full Name</h4>
+                    <input id="name" type="text" placeholder="Your Name Here!">
+
+                    <h4>Email Address</h4>
+                    <input id="email" type="email" placeholder="Your Email Here!">
+
+                    <h4>GitHub Username</h4>
+                    <input id="username" type="text" placeholder="@yourusername!">
+
+                    <input  onclick="saveValue()" class="submit-button" type="button" value="Generate My Ticket">
+                </div>
+        </div>
+        </div>
+    </header>
+    <script src="./js/app.js"></script>
+</body>
+</html>

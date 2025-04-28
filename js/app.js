@@ -21,6 +21,16 @@ usuario.addEventListener('input', () => {
 let pagina = document.getElementById('header');
 
 function saveValue( ) {
+    if(nombre.value==''){
+        alert("Hay Campos Vacios");
+    } else if(correo.value==''){
+        alert("Hay Campos Vacios");
+    } else if(usuario.value==''){
+        alert("Hay Campos Vacios");
+    } else{
+        // nombre1.setCustomValidity('');
+
+
     console.log(datoNombre);
     console.log(datoCorreo);
     console.log(datoUsuario);
@@ -164,4 +174,4 @@ function saveValue( ) {
     
     // pagina.innerHTML = ""
 }
-
+}

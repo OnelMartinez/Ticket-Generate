@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url(https://onelmartinez.github.io/Ticket-Generate/images/background-desktop.png);
+    background-image: url('https://onelmartinez.github.io/Ticket-Generate/images/background-desktop.png');
     background-size: cover;
 }
 
